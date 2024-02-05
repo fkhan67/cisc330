@@ -1,0 +1,11 @@
+display: flex is a rule that applies to a container element and establishes a flex container context. It enables a flex container, and the child elements within it become flexible items.
+
+flex-direction sets the direction of the main axis along which the flex container's items are placed. It can be set to row (default), row-reverse, column, or column-reverse.
+
+flex-wrap controls whether the flex container should wrap its items onto multiple lines if the space along the main axis is not sufficient. It can be set to nowrap (default), wrap, or wrap-reverse.
+
+justify-content: aligns flex items along the main axis of the flex container. It determines the distribution of space between and around the content items.
+
+align-items: aligns flex items along the cross axis of the flex container. It specifies the default alignment for items inside the flex container.
+
+align-content aligns a flex container's lines within the flex container when there is extra space in the cross-axis.
