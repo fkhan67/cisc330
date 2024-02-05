@@ -1,0 +1,1 @@
+Margin controls the space outside an element, affecting its positioning in relation to other elements. Padding controls the space between an element's content and its border, influencing its internal spacing. Border creates a visual boundary around the element, separating its content from the outer space. The order of application is Margin -> Border -> Padding -> Content.
