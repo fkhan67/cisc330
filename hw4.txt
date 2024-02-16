@@ -1,0 +1,8 @@
+1) JavaScript is a high-level, interpreted programming language that is primarily used for adding interactivity and dynamic behavior to web pages. In an interpreted language like JavaScript, the source code is directly executed line by line without the need for a separate compilation step.
+Compiled languages, on the other hand, require a compilation step where the source code is translated into machine code or an intermediate form before execution.
+
+2)var is function-scoped and does not have block-level scope. It allows redeclaration and reassignment of values. let is block-scoped, meaning it is only accessible within the block it is declared in. const is also block-scoped and does not allow reassignment or redeclaration after initialization.
+
+3)Anonymous functions are functions without a name. Higher-order functions are functions that can take other functions as arguments or return functions as results.
+
+4) In JavaScript, objects are collections of key-value pairs where the keys are strings and the values can be any data type, including functions and other objects. In traditional OOP languages, objects are instances of classes, which define the structure and behavior of the objects. JavaScript does not have built-in classes, and objects are typically created through constructor functions or object literals.
