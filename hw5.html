@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML HW#5</title>
+</head>
+<body>
+
+<button id="myButton" onclick="changeButtonText()">Click Me</button>
+
+<ul onclick="changeListItemsColor(event)">
+  <li>Item #1</li>
+  <li>Item #2</li>
+  <li>Item #3</li>
+</ul>
+
+<div id="myDiv">
+  <button id="secondButton" onclick="appendParagraph()">Add Paragraph</button>
+</div>
+
+<script>
+  function changeButtonText() {
+    document.getElementById("myButton").textContent = "Button Clicked";
+  }
+
+  function changeListItemsColor(event) {
+    const listItems = document.querySelectorAll("li");
+    listItems.forEach(item => {
+      item.style.color = "blue";
+    });
+  }
+  function appendParagraph() {
+    const div = document.getElementById("myDiv");
+    const paragraph = document.createElement("p");
+    paragraph.textContent = "New paragraph added!";
+    div.appendChild(paragraph);
+  }
+</script>
+
+</body>
+</html>
