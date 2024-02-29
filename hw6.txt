@@ -1,0 +1,10 @@
+1) HTTP (Hypertext Transfer Protocol) is a protocol used for transmitting hypermedia documents, such as HTML. HTTP operates as a request-response protocol in a client-server computing model. Different HTTP request methods specify the action to be performed for a given resource. Some common HTTP request methods include;
+GET: Retrieves data from the server without altering it.
+POST: Submits data to be processed to a specified resource.
+PUT: Updates or replaces the target resource with the request payload.
+DELETE: Removes the specified resource from the server.
+PATCH: Applies partial modifications to a resource.
+
+2) API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other. JSON (JavaScript Object Notation) is a lightweight data interchange format that is commonly used for transmitting data between a server and a web application. 
+
+3) AJAX (Asynchronous JavaScript and XML) is a web development technique used to create asynchronous web applications. Asynchronous code refers to code that runs independently of the main program flow. 
