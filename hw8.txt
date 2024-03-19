@@ -1,0 +1,17 @@
+1. Escape data is the carrying out of the process in whichever way best ensures that the receiving system interprets them rightly. Highlighting the relevance of API function, especially in the web development, in attempting to include user input that most possible contains special HTML or SQL characters. One of the useful capabilities is the ability to exempt the developer from the data, in which some of the special characters like ">", < and''), would not be interpreted as scripts, thus negating injection attacks like XSS or SQL injection.
+2a. REST (Representational State Transfer) is an architectural style for designing networked applications. It is based on a set of principles that define how distributed systems should be built, emphasizing a stateless client-server communication model. Statelessness means that each request from a client to the server must contain all the information necessary to understand and fulfill the request, and the server should not retain any state about the client session between requests. This simplifies server implementation, improves scalability, and enhances reliability.
+b. In REST, a resource is any information that can be accessed through the web. Resources are identified by unique URIs (Uniform Resource Identifiers), and clients interact with them using standard HTTP methods such as GET, POST, PUT, DELETE, etc.
+c.
+i. To get a list of users:
+- URL: /users
+- HTTP method: GET
+
+ii. To get a particular user:
+- URL: /users/{userId}
+- HTTP method: GET
+
+iii. To save a user:
+- URL: /users
+- HTTP method: POST
+3. A cookie is a small piece of data that a website stores on a user's computer or other device.
+4. A session is a mechanism used to maintain stateful information about interactions between a client and a server. 
