@@ -1,0 +1,2 @@
+1. SQL stands for structured query language and is a domain-specific language used in programming and managing relational databases. 
+4. PDO stands for PHP Data Objects, which is a PHP extension providing a uniform interface for accessing databases in PHP. 
